@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+
+html,
+body,
+main {
+  display: block;
+  width: 100vw;
+  height: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+}

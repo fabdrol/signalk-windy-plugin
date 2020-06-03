@@ -1,0 +1,39 @@
+{
+  "name": "signalk-windy-plugin",
+  "license": "Apache-2.0",
+  "version": "1.0.1",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.1",
+    "antd": "^4.3.1",
+    "leaflet": "1.4.0",
+    "moment": "^2.22.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-leaflet": "^2.7.0",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts-ts": "3.1.0",
+    "react-windy-leaflet": "^0.1.11",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-saga": "^1.0.2",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "clean": "rm -rf node_modules ; rm yarn.lock ; rm package-lock.json"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.5.12",
+    "@types/node": "^10.12.9",
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-leaflet": "^2.5.1",
+    "@types/react-redux": "^6.0.9",
+    "@types/react-router": "^4.4.5",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux-saga": "^0.10.5",
+    "typescript": "^3.1.6"
+  }
+}
